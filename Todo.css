@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background-color: lightgoldenrodyellow;
+}
+
+.holder {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: rgb(56, 105, 197);
+    display: grid;
+    grid-template-columns: 100px 500px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    max-width: 49vw;
+    margin: 0px auto;
+
+}
+
+.holder {
+    margin-bottom: 10px;
+    padding-bottom: 9px;
+}
+
+.AddOn {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.DeleteItem {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.NameInput,
+.Timei {
+    /* padding-left: 12px; */
+    padding: 10px;
+    font-weight: bolder;
+    border: 2px solid rgb(93, 76, 76);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+}
+
+.open {
+    
+    background-color: aquamarine;
+    max-width: 55vw;
+    margin: 0px auto;
+    height: 100%;
+ z-index: 2;
+
+}
+
+.close {
+    background-color: aquamarine;
+    max-width: 55vw;
+    margin: 0px auto;
+    z-index: 2;
+
+}
+.open-clo{
+    background-color: aquamarine;
+    margin: 0px auto;
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    width: 55vw;
+}
